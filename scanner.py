@@ -12,7 +12,7 @@ from io import BytesIO
 # Configuration
 TSV_GZ_URL = "http://addresses.loyce.club/blockchair_bitcoin_addresses_and_balance_LATEST.tsv.gz"
 WORKERS = min(4, cpu_count())  # Use 4 cores or available cores
-BATCH_SIZE = 100000  # Keys per batch per worker
+BATCH_SIZE = 50000  # Keys per batch per worker
 UPDATE_INTERVAL = 1  # Seconds between stats updates
 
 def timestamp():

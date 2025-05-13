@@ -1,0 +1,10 @@
+{
+    "name": "BTC Scanner",
+    "image": "mcr.microsoft.com/devcontainers/python:3.9",
+    "postCreateCommand": "pip install ecdsa base58 requests",
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-python.python"]
+        }
+    }
+}

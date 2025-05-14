@@ -18,9 +18,9 @@ LAST_MODIFIED = os.path.getmtime(__file__)
 
 # ================ CONFIGURATION ================
 TSV_GZ_URL = "http://addresses.loyce.club/blockchair_bitcoin_addresses_and_balance_LATEST.tsv.gz"
-UPDATE_INTERVAL = 5  # Seconds between stats updates
-MAX_RAM_USAGE = 0.8  # 80% of available RAM
-MIN_BATCH_SIZE = 50000
+UPDATE_INTERVAL = 1  # Seconds between stats updates
+MAX_RAM_USAGE = 0.5 # 80% of available RAM
+MIN_BATCH_SIZE = 5000
 MAX_BATCH_SIZE = 500000
 
 # ================ DISPLAY SYSTEM ================
